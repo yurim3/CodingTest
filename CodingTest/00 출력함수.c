@@ -12,6 +12,10 @@ int main(void)
 
 	printf("정수 %d, 문자 %c, 더블 %lf, 플롯 %f\n", jungsu, munja, sosu, sosu1);
 	//mjyeol를 %c로 찍어 보자.
+	for (int i = 0; i < 12; i++) {
+		printf("%c", mjyeol[i]);
+	}
+	printf("\n");
 	printf("%c\n", mjyeol[0]); //h
 	printf("%c\n", mjyeol[1]); //e
 	printf("%c\n", mjyeol[2]); //l
