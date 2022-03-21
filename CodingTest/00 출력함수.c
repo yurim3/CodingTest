@@ -11,5 +11,18 @@ int main(void)
 	char mjyeol[12] = "Hello World";
 
 	printf("정수 %d, 문자 %c, 더블 %lf, 플롯 %f\n", jungsu, munja, sosu, sosu1);
-	printf("%s\n", mjyeol);
+	//mjyeol를 %c로 찍어 보자.
+	printf("%c\n", mjyeol[0]); //h
+	printf("%c\n", mjyeol[1]); //e
+	printf("%c\n", mjyeol[2]); //l
+	printf("%c\n", mjyeol[3]); //l
+	printf("%c\n", mjyeol[4]); //o
+	printf("%c\n", mjyeol[5]); //
+	printf("%c\n", mjyeol[6]); //w
+	printf("%c\n", mjyeol[7]); //o
+	printf("%c\n", mjyeol[8]); //r
+	printf("%c\n", mjyeol[9]); //l
+	printf("%c\n", mjyeol[10]); //d
+	printf("%c\n", mjyeol[11]); //\0
+
 }
