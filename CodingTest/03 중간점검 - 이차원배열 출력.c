@@ -22,5 +22,10 @@ int main(void)
 	}
 	printf("길이는 %d", length);
 
+	for (int i = 0; str[i] != '\0'; i++) {
+			length++;
+	}
+	printf("길이는 %d", length);
+
 	return 0;
 }
