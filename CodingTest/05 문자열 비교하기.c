@@ -24,6 +24,9 @@ int main(void)
 {
 	char a[20] = "Hello";
 	char b[20] = "Yello";
-	my_strcmp(a, b);
+	if (my_strcmp(a, b) == 0)
+		printf("두 문자열은 같습니다.\n");
+	else
+		printf("두 문자열은 다릅니다.\n");
 	return 0;
 }
