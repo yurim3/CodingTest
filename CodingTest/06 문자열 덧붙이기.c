@@ -25,6 +25,7 @@ int main(void)
 	char str2[20] = "yellow";
 
 	//str1의 내용에 str2를 덧붙임
+	
 	strcat(str1, str2);
 	//helloyellow가 나왔으면 좋겠다
 	printf("%s", str1);

@@ -18,7 +18,7 @@ int main(void)
 	//[5] = ' ', [6] = 'W', [7] = 'o', [8] = 'r', [9] = 'l', [10] = 'd', [11] = '\0'
 	for (int i = 0; i < strlen(mjyeol); i++)
 	{
-		printf("%c", mjyeol[i]);
+		printf("%c", mjyeol[i] );
 	}
 	printf("\n");
 	printf("%c\n", mjyeol[0]); //h

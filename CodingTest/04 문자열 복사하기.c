@@ -4,7 +4,7 @@
 //d : 복사할 공간(destination)	s : 복사할 문자열(source)
 void my_strcpy(char* d, char* s)
 {
-	int length = strlne(s);
+	int length = strlen(s);
 	//for(int i = 0; src[i] != '\0'; i++)
 	for (int i = 0; i < length; i++) {
 		d[i] = s[i];
