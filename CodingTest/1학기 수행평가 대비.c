@@ -13,4 +13,8 @@ int main(void) {
 	char copy_str[15];
 	strcpy(copy_str, str);
 	printf("%s \n", copy_str);
+
+	//문자열 덧붙이기 strcat(덧붙일 대상, 덧붙일 문자열)
+	strcat(copy_str, "Don't go");
+	printf("%s \n", copy_str);
 }
