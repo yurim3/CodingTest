@@ -17,4 +17,12 @@ int main(void) {
 	//문자열 덧붙이기 strcat(덧붙일 대상, 덧붙일 문자열)
 	strcat(copy_str, "Don't go");
 	printf("%s \n", copy_str);
+
+	//문자열 비교하기
+	if (strcmp(str, "YSY") == 0) { //0일 경우는 YSY일 경우, 0이 아닐 경우는 YSY이 아닐 경우
+		printf("양서영입니다. \n");
+	}
+	else {
+		printf("양서영이 아닙니다. \n");
+	}
 }
