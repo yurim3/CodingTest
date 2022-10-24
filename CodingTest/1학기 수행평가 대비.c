@@ -4,7 +4,7 @@
 int main(void) {
 	//배열은 20개의 공간을 가지지만, 문자의 길이는 3
 	char str[30] = "tomorrowXtogether";
-
+	     
 	//문자의 길이를 구하는 함수
 	int length = strlen(str);
 	printf("문자열의 길이는 %d\n", length);
@@ -48,6 +48,7 @@ int main(void) {
 	else {
 		printf("두 문자열은 같지 않습니다.");
 	}
+
 
 	//char str[20] = "YSY";
 	// 
