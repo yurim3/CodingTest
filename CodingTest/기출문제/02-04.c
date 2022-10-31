@@ -6,7 +6,12 @@
 // words 그냥 문자열이 들어가 있는 것
 // 5개 이상의 문자열만 걸러서 넣는다
 char* solution(char* words[], int words_len) {
-    char* answer = "";
+    ////////////////////동적할당 못 하겠다면 코드를 이렇게!!!//////////////////////////////
+    
+    
+    // 단어의 개수 최대 100개 * 한 단어당 길이 10 + 널('\0') 공간 1
+    char answer[1001] = "";
+
     //words[0]이 5글자 이상이면 answer에 words[0] 추가
     /* if (strlen(words[0]) >= 5) {
         strcat(answer, words[0]);
@@ -19,8 +24,14 @@ char* solution(char* words[], int words_len) {
         }
     }
 
+    //answer에 아무 글자도 없을 때, answer는 "empty"
+    if (strlen(answer) == 0) {
+        strcat(answer, "empty"); //원래는 cpy인데 어차피 아무 글자도 없으니 뒤에 추가하는 함수인 cat를 써도 상관 없음
+    }
+
     return answer;
 }
+
 int main() {
     char* words1[5] = { "my", "favorite", "color", "is", "violet" };
     int words_len1 = 5;
