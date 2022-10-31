@@ -18,6 +18,14 @@ int solution(int attack, int recovery, int hp) {
             break;
         hp += recovery;
     }
+
+    //°£¼ÒÈ­(refactoring)
+    /* while (hp > 0) {
+        count += 1;
+        hp -= attack;
+        if (hp > 0)
+            hp += recovery;
+    } */
     return count;
 }
 
