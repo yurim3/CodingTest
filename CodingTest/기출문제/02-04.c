@@ -8,9 +8,16 @@
 char* solution(char* words[], int words_len) {
     ////////////////////동적할당 못 하겠다면 코드를 이렇게!!!//////////////////////////////
     
-    
     // 단어의 개수 최대 100개 * 한 단어당 길이 10 + 널('\0') 공간 1
-    char answer[1001] = "";
+    //char answer[1001] = "";
+    
+    //메모리 종간 1001개 동적할당
+    char* answer = malloc(1001 * sizeof(char));
+
+    //모든 공간을 0으로 초기화
+    for (int i = 0; i < 1001; i++) {
+        answer[i] = 0;
+    }
 
     //words[0]이 5글자 이상이면 answer에 words[0] 추가
     /* if (strlen(words[0]) >= 5) {
