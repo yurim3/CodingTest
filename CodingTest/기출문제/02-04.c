@@ -15,7 +15,7 @@ char* solution(char* words[], int words_len) {
     //길이 5 이상의 문자열만 answer에 넣을 거다.
     for (int i = 0; i < words_len; i++) {
         if (strlen(words[i]) >= 5) {
-            strcmp(answer) = words[i];
+            strcat(answer, words[i]);
         }
     }
 
