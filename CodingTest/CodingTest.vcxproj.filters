@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03-10.c">
+    <ClCompile Include="04-01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="04-02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
